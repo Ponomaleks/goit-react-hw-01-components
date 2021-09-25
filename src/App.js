@@ -1,9 +1,9 @@
 // import './App.css';
 
-import Profile from './components/social-profile/Profile';
+import Profile from './components/Social-profile/Profile';
 import user from './data/user.json';
 
-import Statistics from './components/statistics/Statistics';
+import Statistics from './components/Statistics/Statistics';
 import statisticalData from './data/statistical-data.json';
 
 function App() {
