@@ -1,8 +1,14 @@
-.status {
+.friendList {
+  margin: 30px auto 0px;
+  width: 250px;
 }
 
-.avatar {
-}
+.item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 1px 1px rgb(34 60 80 / 30%);
 
-.name {
+  padding: 5px;
 }
