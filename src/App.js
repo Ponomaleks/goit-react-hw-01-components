@@ -9,7 +9,7 @@ import statisticalData from './data/statistical-data.json';
 import FriendList from './components/Friend-list/FriendList';
 import friends from './data/friends.json';
 
-import TransactionHistory from './components/Transaction-history/TransactionHistory';
+import TransactionHistory from './components/transaction-history';
 import transactions from './data/transactions.json';
 
 function App() {
