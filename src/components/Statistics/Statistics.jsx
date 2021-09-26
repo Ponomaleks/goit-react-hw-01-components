@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import s from './Statistics.module.css';
 
 const Statistics = ({ title, stats }) => {
   const randomIntegerFromInterval = (min, max) => {
@@ -11,13 +12,13 @@ const Statistics = ({ title, stats }) => {
     )}, ${randomIntegerFromInterval(0, 255)})`;
   }
   return (
-    <section className="statistics">
-      <h2 className="title">{title}</h2>
-      <ul className="stat-list">
+    <section className={s.statistics}>
+      <h2 className={s.title}>{title}</h2>
+      <ul className={s.statList}>
         {stats.map(({ id, label, percentage }) => (
-          <li key={id} className="item" style={{ backgroundColor: getRandomColor() }}>
-            <span className="label">{label}</span>
-            <span className="percentage">{percentage}%</span>
+          <li key={id} className={s.item} style={{ backgroundColor: getRandomColor() }}>
+            <span className={s.label}>{label}</span>
+            <span className={s.percentage}>{percentage}%</span>
           </li>
         ))}
       </ul>
