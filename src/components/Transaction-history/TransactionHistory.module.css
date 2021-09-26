@@ -1,0 +1,35 @@
+.TransactionHistory {
+  border-collapse: collapse;
+  border: 1px solid gainsboro;
+  width: 250px;
+  margin: 0 auto;
+  box-shadow: 0px 1px 1px 1px rgb(34 60 80 / 20%);
+  border: 1px solid gainsboro;
+}
+
+/* Нечетные строки */
+.TransactionHistory tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+/* Четные строки */
+.TransactionHistory tbody tr:nth-child(even) {
+  background: whitesmoke;
+}
+
+th {
+  background: darkturquoise;
+  border: 1px solid gainsboro;
+  color: #fff;
+  font-size: 8px;
+  text-transform: uppercase;
+  height: 20px;
+}
+
+td {
+  border: 1px solid whitesmoke;
+  color: grey;
+  text-align: center;
+  font-size: 8px;
+  height: 20px;
+}
